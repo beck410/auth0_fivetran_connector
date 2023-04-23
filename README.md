@@ -1,9 +1,9 @@
-#Auth0 user data connector
+# Auth0 user data connector
 
-##Fivetran Custom Connectors
+## Fivetran Custom Connectors
 Fivetran allows for building and scheduling custom function connectors using serverless compute services such as AWS Lambda if they don't have a connector for a specific integration in their library.
 
-##Updating code in AWS Lambda Function
+## Updating code in AWS Lambda Function
 The Lambda function console allows you to update code in their editor and test changes easily. If you update code within the lambda function console please also update the corresponding connector code within this repo for transparency and reference.
 
 # Deploying new runtime dependencies/libraries to AWS Lambda function (python env)
